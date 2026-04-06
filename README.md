@@ -1,0 +1,1 @@
+The chosen scenario is "Personal Brand Portofolio and CV" for HW1. It has a landing page with 3 meaningful sections, a CV (content) page, a data/table page with minimum 4 rows of data and a contact page with 6 controls.
