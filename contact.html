@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact and feedback</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <header>
         <h1>Contact</h1>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">Resume</a></li>
@@ -34,8 +35,8 @@
                 <legend>Message</legend>
                 <label for="subject">Subject (required)</label>
                 <input type="text" name="subject" id="subject"  class="subject" aria-describedby="subject-hint" required>
-                <p id="subject-hint">e.g. Complains, suggestions, ideas</p>
-                <label for="msg">Message (required)</label>
+                <p id="subject-hint">e.g. Complaints, suggestions, ideas</p>
+                <label for="msg" class="msg">Message (required)</label>
                 <textarea name="message" id="msg" rows="5" required></textarea>
             </fieldset>
             <fieldset class="review">

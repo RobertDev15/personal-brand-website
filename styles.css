@@ -98,6 +98,15 @@ body{
     border: 1px solid #ddd;
     background: linear-gradient(90deg,orange,rgba(255, 175, 77, 0.5));
 }
+.profile-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.profile-text{
+    flex: 1;
+}
 .skills-container{
     padding: 8px 16px;
     width: 100%;
@@ -165,6 +174,7 @@ body{
 }
 .msg{
     background-color: lightcyan;
+    display: block;
 }
 .review{
     background-color: rgb(255, 195, 255);
@@ -199,10 +209,18 @@ td ul{
     list-style: none;
     padding: 5px 10px;
 }
+td a{
+    text-decoration: none;
+}
 .data-table td{
     text-align: center;
     border: 2px solid #ddd;
 }
+.data-table caption{
+    text-align: center;
+    font-size: 25px;
+}
+  /* Refinements */
 .profile-container p{
     margin-left: 15px;
 }
@@ -213,6 +231,12 @@ td ul{
     gap: 20px;
 }
 .studies li{
+    background: linear-gradient(90deg,orange,lightgray);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 3px 3px;
+}
+.hobby{
     background: linear-gradient(90deg,orange,lightgray);
     border-radius: 15px;
     padding: 5px;
@@ -268,14 +292,23 @@ h2{
     flex-wrap: wrap;
 }
 .project li{
-    background: linear-gradient(90deg,lightgray,whitesmoke);
+    background: linear-gradient(90deg,rgb(253, 255, 180),rgb(255, 171, 171));
     border-radius: 20px;
     padding: 5px;
     box-shadow: 5px 5px;
 }
 .subtitle{
     padding: 8px;
+    text-align: center;
 }
 p{
     padding: 8px 4px;
+}
+.profile-img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+
 }
