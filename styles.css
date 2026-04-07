@@ -40,13 +40,13 @@ body{
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-right: 25px;
+    margin-top: 20px;
 }
 .nav-links a{
     text-decoration: none;
     color: lightsalmon;
     font-size: 20px;
-    background-color: #ddd;
+    background-color: powderblue;
     border-radius: 20px;
     padding: 8px 16px;
     margin: 0;
@@ -54,6 +54,7 @@ body{
 .nav-links a:hover{
     cursor: pointer;
     color: blue;
+    background: linear-gradient(90deg,rgb(221, 255, 255),rgb(238, 255, 171));
     transition: 0.5s ease;
 }
 /* .hero-img{
@@ -90,7 +91,7 @@ body{
     margin-right: 20px;
 }
 .profile-container{
-    padding: 5px 3px 10px 15px;
+    padding: 16px 8px;
     width: 100%;
     text-align: left;
     border-radius: 25px;
@@ -98,7 +99,7 @@ body{
     background: linear-gradient(90deg,orange,rgba(255, 175, 77, 0.5));
 }
 .skills-container{
-    padding: 5px 3px 10px 3px;
+    padding: 8px 16px;
     width: 100%;
     text-align: left;
     border-radius: 25px;
@@ -106,7 +107,7 @@ body{
     background: linear-gradient(90deg,rgb(255, 131, 149),pink);
 }
 .contact-container{
-    padding: 3px 3px 10px 10px;
+    padding: 8px 16px;
     width: 100%;
     text-align: left;
     border-radius: 25px;
@@ -114,12 +115,12 @@ body{
     background: linear-gradient(90deg,yellowgreen,paleturquoise);
 }
 .project-container{
-    padding: 3px 3px 10px 10px;
+    padding: 8px 16px;
     width: 100%;
     text-align: left;
     border-radius: 25px;
     border: 1px solid #ddd;
-    background: linear-gradient(90deg,rgb(144, 251, 224),rgb(255, 122, 122));
+    background: linear-gradient(90deg,violet,whitesmoke);
 }
 .cv-container{
     display: grid;
@@ -130,7 +131,8 @@ body{
 .card{
     background-color: rgb(255, 126, 148);
     border-radius: 25px; 
-    padding: 24px;  
+    padding: 24px;
+    max-width: fit-content;  
 }
 .card:hover{
     cursor: pointer;
@@ -140,7 +142,8 @@ body{
 .update-card{
     background-color: rgb(164, 255, 72);
     border-radius: 15px 25px;
-    padding: 25px 20px; 
+    padding: 25px 20px;
+    max-width: fit-content; 
 }
 .update-card:hover{
     cursor: pointer;
@@ -150,7 +153,7 @@ body{
      /* Form access */
 .form{
     padding: 25px 50px 25px 50px;
-    background: linear-gradient(90deg,rgb(221, 255, 255),rgb(238, 255, 171));
+    background: linear-gradient(90deg,rgb(241, 255, 149),rgb(255, 224, 24));
     border: 1px solid #ccc;
     border-radius: 12px;
     box-shadow: 0 2px 6px rgb(0, 0, 0,0.1);
@@ -162,7 +165,7 @@ body{
     background-color: lightcyan;
 }
 .review{
-    background-color: lightpink;
+    background-color: rgb(255, 195, 255);
 }
 .btn{
     background-color: lightgreen;
@@ -194,7 +197,6 @@ td ul{
     text-align: center;
     border: 2px solid #ddd;
 }
-
 .profile-container p{
     margin-left: 15px;
 }
@@ -202,8 +204,12 @@ td ul{
     list-style: none;
     margin-left: 15px;
     display: flex;
-    flex-direction: column;
     gap: 20px;
+}
+.studies li{
+    background-color: #ddd;
+    border-radius: 15px;
+    padding: 5px;
 }
 .skills{
     display: flex;
@@ -216,32 +222,44 @@ td ul{
 .skills li{
     background: linear-gradient(90deg,lightcyan,lightgreen);
     border-radius: 20px;
-    padding: 3px 3px 5px 5px;
+    padding: 5px;
 }
 .contact{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
     list-style: none;
+    flex-wrap: wrap;
 }
 .contact li{
     background: linear-gradient(90deg,lightcyan,lightgreen);
     border-radius: 20px;
-    padding: 3px 3px 5px 5px;
+    padding: 5px;
+}
+.contact a{
+    text-decoration: none;
+    color: darkblue;
+}
+.contact a:hover{
+    color: blue;
+    transition: 0.3 ease;
 }
 h2{
     text-align: center;
+    margin-bottom: 20px;
 }
 .project{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
     list-style: none;
     flex-wrap: wrap;
 }
 .project li{
     background: linear-gradient(90deg,lightgray,whitesmoke);
     border-radius: 20px;
-    padding: 3px 3px 5px 5px;
+    padding: 5px;
 }
