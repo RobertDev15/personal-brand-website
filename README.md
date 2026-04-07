@@ -4,7 +4,7 @@ It has:
 
 - main page with 3 meaningful sections,
 
- - CV (content) page, 
+- CV (content) page, 
 
 - data page with a table that has 6 rows of data,
 
