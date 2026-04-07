@@ -1,0 +1,247 @@
+    /* Main  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 16px;
+    width: 100%;
+    border-radius: 15px;
+    color: black;
+}
+header h1{
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg,rgb(221, 255, 255),rgb(238, 255, 171));
+    box-sizing: border-box;
+}
+.skip-link{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip-link:focus{
+    position: static;
+    width: auto;
+    height: auto;
+}
+    /* Navigation  */
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 25px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: lightsalmon;
+    font-size: 20px;
+    background-color: #ddd;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin: 0;
+}
+.nav-links a:hover{
+    cursor: pointer;
+    color: blue;
+    transition: 0.5s ease;
+}
+/* .hero-img{
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(teamworks.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+} */
+       /* Containers */
+.description-container,.service-container,.update-container{
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+}
+.description-container{
+    background: linear-gradient(90deg,rgb(158, 255, 255),rgb(111, 111, 246));
+    border: 1px solid #ddd;
+}
+.service-container{
+    background: linear-gradient(90deg,rgb(255, 108, 255),rgb(255, 138, 255));
+    border: 1px solid #ddd;
+}
+.update-container{
+    background: linear-gradient(90deg,rgb(62, 226, 62),rgb(0, 171, 0));
+    border: 1px solid #ddd;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.profile-container{
+    padding: 5px 3px 10px 15px;
+    width: 100%;
+    text-align: left;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background: linear-gradient(90deg,orange,rgba(255, 175, 77, 0.5));
+}
+.skills-container{
+    padding: 5px 3px 10px 3px;
+    width: 100%;
+    text-align: left;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background: linear-gradient(90deg,rgb(255, 131, 149),pink);
+}
+.contact-container{
+    padding: 3px 3px 10px 10px;
+    width: 100%;
+    text-align: left;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background: linear-gradient(90deg,yellowgreen,paleturquoise);
+}
+.project-container{
+    padding: 3px 3px 10px 10px;
+    width: 100%;
+    text-align: left;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background: linear-gradient(90deg,rgb(144, 251, 224),rgb(255, 122, 122));
+}
+.cv-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+    /* Cards */
+.card{
+    background-color: rgb(255, 126, 148);
+    border-radius: 25px; 
+    padding: 24px;  
+}
+.card:hover{
+    cursor: pointer;
+    background-color: rgb(255, 108, 255);
+    transition: 0.3s ease;
+}
+.update-card{
+    background-color: rgb(164, 255, 72);
+    border-radius: 15px 25px;
+    padding: 25px 20px; 
+}
+.update-card:hover{
+    cursor: pointer;
+    background-color: rgb(62, 226, 62);
+    transition: 0.3s ease;
+}
+     /* Form access */
+.form{
+    padding: 25px 50px 25px 50px;
+    background: linear-gradient(90deg,rgb(221, 255, 255),rgb(238, 255, 171));
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgb(0, 0, 0,0.1);
+}
+.details{
+    background-color: lightblue;
+}
+.msg{
+    background-color: lightcyan;
+}
+.review{
+    background-color: lightpink;
+}
+.btn{
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+    /*Data table */
+.data-table{
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 5px solid;
+}
+.data-table th{
+    background-color: lightcoral;
+    border: 2px solid #ddd;
+}
+.data-table td:nth-child(even){
+    background-color: darkgray;
+}
+.data-table td:nth-child(odd){
+    background-color: lightgray;
+}
+td ul{
+    list-style: none;
+    padding: 5px 10px;
+}
+.data-table td{
+    text-align: center;
+    border: 2px solid #ddd;
+}
+
+.profile-container p{
+    margin-left: 15px;
+}
+.studies{
+    list-style: none;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.skills li{
+    background: linear-gradient(90deg,lightcyan,lightgreen);
+    border-radius: 20px;
+    padding: 3px 3px 5px 5px;
+}
+.contact{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.contact li{
+    background: linear-gradient(90deg,lightcyan,lightgreen);
+    border-radius: 20px;
+    padding: 3px 3px 5px 5px;
+}
+h2{
+    text-align: center;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.project li{
+    background: linear-gradient(90deg,lightgray,whitesmoke);
+    border-radius: 20px;
+    padding: 3px 3px 5px 5px;
+}

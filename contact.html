@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Resume</a></li>
+                <li><a href="data.html">Related Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <form action="#" method="post" aria-label="Contact form" class="form">
+            <fieldset class="details">
+                <legend>Personal details</legend>
+                <label for="name">Name (required)</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email (required)</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phone">Phone number (optional)</label>
+                <input type="tel" name="phone" id="phone">
+            </fieldset>
+            <fieldset class="msg">
+                <legend>Message</legend>
+                <label for="subject">Subject (required)</label>
+                <input type="text" name="subject" id="subject"  class="subject" aria-describedby="subject-hint" required>
+                <p id="subject-hint">e.g. 'I liked his fast paced approach to my problem.'</p>
+                <label for="msg">Message </label>
+                <textarea name="message" id="msg" rows="5" required></textarea>
+            </fieldset>
+            <fieldset class="review">
+                <legend>How would you rate my services?</legend>
+                <label for="1star">&star;</label>
+                <input type="radio" name="review" id="1star" value="1">
+                <label for="2star">&star;&star;</label>
+                <input type="radio" name="review" id="2star" value="2">
+                <label for="3star">&star;&star;&star;</label>
+                <input type="radio" name="review" id="3star" value="3">
+                <label for="4star">&star;&star;&star;&star;</label>
+                <input type="radio" name="review" id="4star" value="4">
+                <label for="5star">&star;&star;&star;&star;&star;</label>
+                <input type="radio" name="review" id="5star" value="5">
+            </fieldset>
+            <button type="submit" class="btn"><b>Send message</b></button>
+        </form>
+    </main>
+    <footer>&copy; 2026 WD Project - Vadean Robert Sebastian, Year 1</footer>
+</body>
+</html>
