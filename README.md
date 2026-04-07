@@ -10,6 +10,6 @@ It has:
 
 - form page that has 7 functionalities:name,email,phone number, subject, message, radio and a submit button
 
-Known limitation is:
+Known limitation:
 
 - It doesn't have a fully responsive layout for mobile devices
