@@ -132,7 +132,8 @@ body{
     background-color: rgb(255, 126, 148);
     border-radius: 25px; 
     padding: 24px;
-    max-width: fit-content;  
+    max-width: fit-content;
+    box-shadow: 10px 10px;  
 }
 .card:hover{
     cursor: pointer;
@@ -144,6 +145,7 @@ body{
     border-radius: 15px 25px;
     padding: 25px 20px;
     max-width: fit-content; 
+    box-shadow: 10px 10px;
 }
 .update-card:hover{
     cursor: pointer;
@@ -168,9 +170,12 @@ body{
     background-color: rgb(255, 195, 255);
 }
 .btn{
-    background-color: lightgreen;
+    background-color: rgb(186, 255, 186);
     border-radius: 10px;
-    margin-left: 15px;
+    padding: 4px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 15px;
 }
     /*Data table */
 .data-table{
@@ -182,12 +187,13 @@ body{
 .data-table th{
     background-color: lightcoral;
     border: 2px solid #ddd;
+    border-radius: 5px;
 }
 .data-table td:nth-child(even){
-    background-color: darkgray;
+    background-color: rgb(255, 180, 180);
 }
 .data-table td:nth-child(odd){
-    background-color: lightgray;
+    background-color: rgb(182, 245, 255);
 }
 td ul{
     list-style: none;
@@ -207,9 +213,10 @@ td ul{
     gap: 20px;
 }
 .studies li{
-    background-color: #ddd;
+    background: linear-gradient(90deg,orange,lightgray);
     border-radius: 15px;
     padding: 5px;
+    box-shadow: 3px 3px;
 }
 .skills{
     display: flex;
@@ -220,9 +227,10 @@ td ul{
     flex-wrap: wrap;
 }
 .skills li{
-    background: linear-gradient(90deg,lightcyan,lightgreen);
+    background: linear-gradient(90deg,lightcyan,rgb(186, 196, 255));
     border-radius: 20px;
     padding: 5px;
+    box-shadow: 5px 5px;
 }
 .contact{
     display: flex;
@@ -234,9 +242,10 @@ td ul{
     flex-wrap: wrap;
 }
 .contact li{
-    background: linear-gradient(90deg,lightcyan,lightgreen);
+    background: linear-gradient(90deg,rgb(185, 255, 255),lightgreen);
     border-radius: 20px;
     padding: 5px;
+    box-shadow: 5px 5px;
 }
 .contact a{
     text-decoration: none;
@@ -244,7 +253,7 @@ td ul{
 }
 .contact a:hover{
     color: blue;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
 }
 h2{
     text-align: center;
@@ -262,4 +271,11 @@ h2{
     background: linear-gradient(90deg,lightgray,whitesmoke);
     border-radius: 20px;
     padding: 5px;
+    box-shadow: 5px 5px;
+}
+.subtitle{
+    padding: 8px;
+}
+p{
+    padding: 8px 4px;
 }
