@@ -22,6 +22,9 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(90deg,rgb(109, 160, 181),rgb(133, 151, 233));
     box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: black;
 }
 .skip-link{
     position: absolute;
@@ -57,9 +60,53 @@ body{
 .nav-links a:hover{
     cursor: pointer;
     color: blue;
-    background: linear-gradient(90deg,rgb(65, 121, 121),rgb(238, 255, 171));
+    background: linear-gradient(90deg,rgb(109, 160, 181),rgb(133, 151, 233));
     transition: 0.5s ease;
 }
+.dropdown {
+    position: relative;
+}
+
+.dropdown ul {
+    position: absolute;
+    display: none;
+    top: 25px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 100%;
+    padding-top: 0px;
+    list-style: none;
+}
+
+.dropdown ul a {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.dropdown ul a::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.dropdown ul li:first-child a {
+    border-top: 2px solid white;
+    padding-top: 5px;
+}
+.dropdown ul li:last-child a::after {
+    border-bottom: none;
+    display: none;
+}
+
+.dropdown ul.show-menu {
+    display: block;
+}
+
        /* Containers */
 .description-container,.service-container,.update-container{
     padding: 40px;
@@ -133,6 +180,13 @@ body{
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+.overview-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(90deg,red,darkred);
+    border-radius: 50px;
+}
     /* Cards */
 .card{
     background-color: rgb(255, 126, 148);
@@ -157,6 +211,29 @@ body{
     cursor: pointer;
     background-color: rgb(62, 226, 62);
     transition: 0.3s ease;
+}
+.game-card,.web-card,.program-card{
+    background-color: rgb(255, 126, 148);
+    border-radius: 25px; 
+    padding: 24px;
+    max-width: fit-content;
+    box-shadow: 10px 10px;  
+}
+.extra-card{
+    background-color: rgb(200, 242, 93);
+    border-radius: 25px; 
+    border: 3px solid yellow;
+    padding: 24px;
+    max-width: fit-content;
+    box-shadow: 10px 10px;  
+}
+.interest-card{
+    background-color: blueviolet;
+    border-radius: 25px; 
+    border: 3px solid purple;
+    padding: 24px;
+    max-width: fit-content;
+    box-shadow: 10px 10px;  
 }
      /* Form access */
 .form{
@@ -334,4 +411,32 @@ p{
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #ddd;
+}
+.main-overview{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 0 20px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+    .card,.update-card{
+        width: 100%;
+        padding: 1.2rem;
+        font-size: 1rem;
+    }
+    .profile-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile-img{
+        width: 150px;
+        height: 150px;
+        margin-top: 10px;
+    }
 }

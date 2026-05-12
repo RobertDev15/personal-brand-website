@@ -1,0 +1,5 @@
+For paragraph A it takes the rules for the element p. 
+For paragraph B it takes the attributs of the class associated with it along with the element attributes and overides the selector p when they have the same .
+For paragraph C it takes the rules for the respective id and overrides the color set by the element with the color of the id.
+For paragraph D it takes the attributes associated with it's id and class but overrides the rules set by individual id, respectly by the class. Precisecly, when we set a different color for each selector the furthermost declared is used by the browser. For the fond we see that the fond family is 'Courier New', following the same rule as with as the individual ids/classes
+For h1 the color is using internal CSS, font-style is using external CSS and padding is using external CSS

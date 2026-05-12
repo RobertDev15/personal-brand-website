@@ -6,6 +6,17 @@
     <title>Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <style>
+        .done{
+            color: darkgreen;
+        }
+        .status:nth-child(odd){
+            color: darkred;
+        }
+        .status:nth-child(even){
+            color: yellowgreen;
+        }
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -16,6 +27,14 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">Resume</a></li>
                 <li><a href="data.html">Projects</a></li>
+                <li class="dropdown"> <a href="#" id="more">More</a> 
+                <ul id="more-list">
+                    <li> <a href="card.html">Card</a> </li>
+                    <li> <a href="overview.html">Overview</a> </li>
+                    <li> <a href="chatbot.html">Chatbot</a> </li>
+                    <li><a href="specificity.html">CSS Game</a></li>
+                </ul>
+                </li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -34,7 +53,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Personal Brand Website</td>
+                    <th scope="row">Personal Brand Website</th>
                     <td>
                         <ul>
                         <li>HTML</li>
@@ -42,12 +61,12 @@
                         <li>JavaScript</li>
                         </ul>
                     </td>
-                    <td><i class="fa-solid fa-check"></i> Completed</td>
+                    <td class="done"><i class="fa-solid fa-check"></i> Completed</td>
                     <td>23.02.2026</td>
                     <td><a href="https://github.com/RobertDev15">Repository</a></td>
                 </tr>
                 <tr>
-                    <td>2D Video Game</td>
+                    <th scope="row">2D Video Game</th>
                     <td>
                         <ul>
                             <li>C++</li>
@@ -55,12 +74,12 @@
                             <li>Unreal Engine</li>
                         </ul>
                     </td>
-                    <td><i class="fa-solid fa-hourglass-half"></i> Pending</td>
+                    <td class="status"><i class="fa-solid fa-hourglass-half"></i> Pending</td>
                     <td >24.03.2026</td>
                     <td><a href="https://github.com/RobertDev15">Repository</a></td>
                 </tr>
                 <tr>
-                    <td >UI Design</td>
+                    <th scope="row">UI Design</th>
                     <td>
                         <ul>
                             <li>Unix</li>
@@ -73,7 +92,7 @@
                     <td><a href="https://github.com/RobertDev15">Repository</a></td>
                 </tr>
                 <tr>
-                    <td>Photo Editing</td>
+                    <th  scope="row">Photo Editing</th>
                     <td>
                         <ul>
                             <li>Dreamweaver</li>
@@ -81,12 +100,12 @@
                             <li>Canva</li>
                         </ul>
                     </td>
-                    <td><i class="fa-solid fa-hourglass-half"></i> Pending</td>
+                    <td class="status"><i class="fa-solid fa-hourglass-half"></i> Pending</td>
                     <td>25.01.2026</td>
                     <td><a href="https://github.com/RobertDev15">Repository</a></td>
                 </tr>
                 <tr>
-                    <td>Theory 3D App</td>
+                    <th scope="row">Theory 3D App</th>
                     <td>
                         <ul>
                             <li>Unity</li>
@@ -99,7 +118,7 @@
                     <td><a href="https://github.com/RobertDev15">Repository</a></td>
                 </tr>
                 <tr>
-                    <td>Immersive ARG Static Website</td>
+                    <th scope="row">Immersive ARG Static Website</th>
                     <td>
                         <ul>
                             <li>HTML</li>
@@ -107,9 +126,9 @@
                             <li>JavaScript</li>
                         </ul>
                     </td>
-                    <td><i class="fa-solid fa-hourglass-half"></i> Pending</td>
+                    <td class="status"><i class="fa-solid fa-hourglass-half"></i> Pending</td>
                     <td>03.04.2026</td>
-                    <td><a href="#">Repository</a></td>
+                    <td ><a href="#">Repository</a></td>
                 </tr>
             </tbody>
         </table>
@@ -117,5 +136,6 @@
     <footer>
         <p>&copy; 2026 WD Project - Vadean Robert Sebastian, Year 1</p>
     </footer>
+    <script src="navigation.js"></script>
 </body>
 </html>

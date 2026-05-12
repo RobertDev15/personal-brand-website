@@ -1,0 +1,31 @@
+#business-card{
+    width: 800px;
+    height: 500px;
+    margin: 300px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.586);
+}
+.name{
+    text-align: center;
+    margin: 10px 0 10px;
+    color: black;
+}
+.catchphrase{
+    color: black;
+}
+#email,#github{
+    text-decoration: none;
+    color: black;
+}
+#email:hover,#github:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s ease;
+}
