@@ -1,0 +1,271 @@
+/* Desktop */
+
+position: relative;
+width: 8323px;
+height: 3972px;
+
+background: #86C9DF;
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 5007px;
+height: 3496px;
+left: 1741px;
+top: 292px;
+
+background: #65B8E5;
+border-radius: 143px;
+
+
+/* Vector 1 */
+
+position: absolute;
+width: 0px;
+height: 2494.5px;
+left: 4156.5px;
+top: 748.5px;
+
+background: #000000;
+opacity: 0.5;
+border: 20px solid #63D9F9;
+
+
+/* Personal Developer Portofolio */
+
+position: absolute;
+width: 2326px;
+height: 294px;
+left: 1825px;
+top: 1350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 200px;
+line-height: 242px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Vadean Robert Sebastian */
+
+position: absolute;
+width: 1941px;
+height: 255px;
+left: 2020px;
+top: 1947px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 150px;
+line-height: 182px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Welcome Back */
+
+position: absolute;
+width: 1985px;
+height: 181px;
+left: 4402px;
+top: 837px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 220px;
+line-height: 266px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Email */
+
+position: absolute;
+width: 351px;
+height: 132px;
+left: 4385px;
+top: 1284px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 123px;
+line-height: 149px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 2205px;
+height: 167px;
+left: 4402px;
+top: 1521px;
+
+background: #FFFFFF;
+border-radius: 25px;
+
+
+/* Password */
+
+position: absolute;
+width: 668px;
+height: 216px;
+left: 4352px;
+top: 1815px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 123px;
+line-height: 149px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 2205px;
+height: 167px;
+left: 4402px;
+top: 2035px;
+
+background: #FFFFFF;
+border-radius: 25px;
+
+
+/* Forgot your password? */
+
+position: absolute;
+width: 1528px;
+height: 202px;
+left: 4607px;
+top: 2307px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 123px;
+line-height: 149px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Component 1 */
+
+position: absolute;
+width: 1054px;
+height: 273px;
+left: 4913px;
+top: 3235px;
+
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #6BBAFF;
+border-radius: 150px;
+
+
+/* Sign Up */
+
+position: absolute;
+left: 14.52%;
+right: 14.61%;
+top: 16.99%;
+bottom: 25.21%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 125px;
+line-height: 151px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Component 2 */
+
+position: absolute;
+width: 1054px;
+height: 317px;
+left: 4775px;
+top: 2604px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #B6E8FF;
+border-radius: 150px;
+
+
+/* Log In */
+
+position: absolute;
+left: 13.09%;
+right: 13.19%;
+top: 22.4%;
+bottom: 22.08%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 125px;
+line-height: 151px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Or */
+
+position: absolute;
+width: 333px;
+height: 132px;
+left: 5172px;
+top: 3012px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 110px;
+line-height: 133px;
+text-align: center;
+
+color: #000000;
+
